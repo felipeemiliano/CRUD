@@ -1,0 +1,4 @@
+INSERT into FUNCIONARIO (IdFuncionario, Nome) values (1, ‘Funcionário A’);
+SELECT IdFuncionario, Nome from FUNCIONARIO;
+UPDATE FUNCIONARIO set Nome = ‘Funcionário A - alterado’ where IdFuncionario = 1;
+DELETE from FUNCIONARIO where IdFuncionario = 1;
